@@ -14,7 +14,7 @@ int main()
 		cout << "\nme diga 4 numeros sendo 0 ou 1 para tentar acertar a key\n";
 		for (i = 0; i < 4; i++)
 		{
-			cout << "me diga o" << i + 1 << "บ pin\n";
+			cout << "me diga o" << i + 1 << "ยบ pin\n";
 			cin >> numerosh[i];
 		}
 		for (i = 0; i < 4; i++)
@@ -29,6 +29,6 @@ int main()
 		
 	} while (contar != 4); 
     
-		cout << "parabens voce acertou o pin " << "em " << tentativas << " tentativas";
+		cout << "parabens voce acertou o pin em " << tentativas << " tentativas";
 	
 }
